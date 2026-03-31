@@ -31,6 +31,8 @@ Finally, the Merchandise entity represents retail items sold in stores, such as 
 
 Overall, this data model captures the complete operational flow of the global coffee chain—from customers placing orders, to inventory being supplied, to payments being processed—while maintaining a clear relational structure that supports meaningful business insights.
 
+<img width="1017" height="1052" alt="image" src="https://github.com/user-attachments/assets/85790d04-a71f-4fb4-af8b-1e021697912e" />
+
 ## Data Dictionary
 
 ## Queries
