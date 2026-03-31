@@ -35,6 +35,32 @@ Overall, this data model captures the complete operational flow of the global co
 
 ## Data Dictionary
 
+### Customers
+
+### Employees
+
+### Equipment
+
+### Inventory
+
+### Loyalty
+
+### Menu Item
+
+### Merchandise
+
+### Orders
+
+### Order Item
+
+### Payment
+
+### Store
+
+### Supplier Item
+
+### Suppliers
+
 ## Queries
 
 ## Database Information
