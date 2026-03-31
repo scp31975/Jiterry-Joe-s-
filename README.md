@@ -53,20 +53,35 @@ Overall, the data model, as shown below, successfully captures the relationships
 
 ### Menu Item
 
+<img width="934" height="614" alt="image" src="https://github.com/user-attachments/assets/0aac0ace-1187-4aae-82a9-74f659a6aa93" />
 
 ### Merchandise
 
-### Orders
+<img width="919" height="885" alt="image" src="https://github.com/user-attachments/assets/b2581c59-af4f-49eb-a701-8fbfdddbd12c" />
 
 ### Order Item
 
+<img width="945" height="926" alt="image" src="https://github.com/user-attachments/assets/04a21b99-af5d-4ce8-88a5-1997412394ab" />
+
+### Orders
+
+<img width="935" height="1057" alt="image" src="https://github.com/user-attachments/assets/e1dd9420-baef-41a3-a98d-628be7bbf7a5" />
+
 ### Payment
+
+<img width="913" height="1053" alt="image" src="https://github.com/user-attachments/assets/3ce55239-d58c-4e34-8b22-af4c313f9530" />
 
 ### Store
 
+<img width="935" height="533" alt="image" src="https://github.com/user-attachments/assets/96b9b817-aaab-4cb4-8b45-a532958b4808" />
+
 ### Supplier Item
 
+<img width="910" height="744" alt="image" src="https://github.com/user-attachments/assets/caf05f5c-505e-4210-bef3-1652cdd2b72b" />
+
 ### Suppliers
+
+<img width="915" height="657" alt="image" src="https://github.com/user-attachments/assets/b457e027-01e2-4e84-9b7b-3938b80b8853" />
 
 ## Queries
 
