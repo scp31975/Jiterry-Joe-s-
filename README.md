@@ -1,4 +1,4 @@
-<img width="956" height="630" alt="image" src="https://github.com/user-attachments/assets/8a84da43-d87b-4c4b-a686-f929d92d610f" /><img width="956" height="630" alt="image" src="https://github.com/user-attachments/assets/6083fdc5-43bd-4850-917c-cf6d93ad0815" /># Group 7 Project Coffee Shop-
+Group 7 Project Coffee Shop-
 
 ## Team Name
 
