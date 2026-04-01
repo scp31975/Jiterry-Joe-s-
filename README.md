@@ -85,6 +85,46 @@ Overall, the data model, as shown below, successfully captures the relationships
 
 ## Queries
 
+Query 1: List all cafe managers that are seasonal
+<img width="1301" height="857" alt="image" src="https://github.com/user-attachments/assets/2e98f38e-422f-4ec4-96c2-fa4104894ea2" />
+This query retrieves all employees, who are managers, that work seasonal. 
+
+Query 2: Show all items on the menu that have never been ordered
+<img width="1284" height="897" alt="image" src="https://github.com/user-attachments/assets/1acaf4de-01df-49d4-a823-0fe96236984e" />
+
+Query 3: Show all orders and status
+<img width="1277" height="998" alt="image" src="https://github.com/user-attachments/assets/89f2752c-ec7c-48c0-9301-f4daf1ff6b9d" />
+
+Query 4: Show revenue by payment type
+<img width="1214" height="849" alt="image" src="https://github.com/user-attachments/assets/732279b6-bc19-48b3-9f07-191d070d040f" />
+
+Query 5: Find the average order value by store
+<img width="1202" height="875" alt="image" src="https://github.com/user-attachments/assets/538cb491-c9ab-4db9-8c77-ddc9b9719cd3" />
+We took the value of the average order from each store. By doing so we were able to retrieve each store's location alongside three performance metrics: the number of orders it received, the average value of each order, as well as the total revenue generated. The results are sorted in a descending order based on the average order value.
+
+Query 6: Find the most popular menu items by total quantity sold
+<img width="1182" height="842" alt="image" src="https://github.com/user-attachments/assets/5103cfc5-89ab-4b5d-b858-7ac127f372ad" />
+We ranked the popularity of each item based on the item’s total quantity sold.
+The query ranked each menu item by the number of units sold across all orders, while also calculating the total revenue generated from each item. The information provided became a useful way to identify bestsellers and top revenue-driving items.
+
+Query 7: Show stores with above average revenue
+<img width="1183" height="877" alt="image" src="https://github.com/user-attachments/assets/5c16af05-0868-4a54-bbe2-f58f82495478" />
+Query 7 filters through all the stores and selects the stores whose total revenue exceeds the average revenue across all stores. By using a subquery first we were able to calculate each store's total, then averaged those totals as the benchmark.
+
+Query 8: Show stores with low inventory that need to reorder
+<img width="1190" height="874" alt="image" src="https://github.com/user-attachments/assets/009c0572-ce21-49b9-a395-3f7e42633e7a" />
+The query scans all of the  inventory records and provides any item at a store whose current quantity has fallen below the reorder level. While also calculating exactly the number of units that need to be ordered in order to get back to the designated threshold, sorted by most urgent need first.
+
+Query 9: Show the customer who spend the most
+<img width="1236" height="879" alt="image" src="https://github.com/user-attachments/assets/6b9120f2-fe1a-48b1-965b-d68f5f956918" />
+Identifies the individual customer who has the highest total, meaning they spent the most in total across all their orders. The subquery finds the maximum customer total and then matches that specific value back to the customer's name and ID.
+
+Query 10: Find which menu items generate above average revenue
+<img width="1224" height="928" alt="image" src="https://github.com/user-attachments/assets/861b4e26-b1ce-4e82-816b-e317cdbc80cd" />
+Like Query 7, Query 10 provides us with the menu items that bring in an above average total revenue. However, in this case it is focused on menu items rather than stores. Calculating each item's total revenue while only returning those that exceed the average revenue per item, helping identify the strongest performers on the menu.
+
+<img width="1273" height="800" alt="image" src="https://github.com/user-attachments/assets/27abc93c-0b79-4619-b4fc-59f3c16256db" />
+
 ## Database Information
 
 ## Assumptions
