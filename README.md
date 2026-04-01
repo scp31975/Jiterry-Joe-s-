@@ -87,16 +87,19 @@ Overall, the data model, as shown below, successfully captures the relationships
 
 Query 1: List all cafe managers that are seasonal
 <img width="1301" height="857" alt="image" src="https://github.com/user-attachments/assets/2e98f38e-422f-4ec4-96c2-fa4104894ea2" />
-This query retrieves all employees, who are managers, that work seasonal. 
+This query retrieves all employees, who are managers, that work seasonal. Seasonal managers typically work only during peak periods, such as the academic year or high‑traffic months. Knowing exactly who these managers are helps the organization anticipate staffing gaps when the season ends. 
 
 Query 2: Show all items on the menu that have never been ordered
 <img width="1284" height="897" alt="image" src="https://github.com/user-attachments/assets/1acaf4de-01df-49d4-a823-0fe96236984e" />
+This query helps managers identify which menu items have never been purchased. Items with zero orders may signal low visibility, poor appeal, or unnecessary complexity on the menu. By isolating these products, managers can decide whether to market them, adjust pricing, or remove them to reduce wasting resources.
 
 Query 3: Show all orders and status
 <img width="1277" height="998" alt="image" src="https://github.com/user-attachments/assets/89f2752c-ec7c-48c0-9301-f4daf1ff6b9d" />
+This query pulls information from the SupplierItem and Suppliers tables to show what items have been shipped, when they were shipped, and the status of the supplier. It is useful in providing visibility into the supply chain and helping track incoming inventory.
 
 Query 4: Show revenue by payment type
 <img width="1214" height="849" alt="image" src="https://github.com/user-attachments/assets/732279b6-bc19-48b3-9f07-191d070d040f" />
+This query shows how much revenue comes from each card type, helping managers understand which cards customers use most. This makes it easier to plan for reliable payment processing, manage card‑related fees, and ensure the systems support the most common payment methods efficiently.
 
 Query 5: Find the average order value by store
 <img width="1202" height="875" alt="image" src="https://github.com/user-attachments/assets/538cb491-c9ab-4db9-8c77-ddc9b9719cd3" />
@@ -127,4 +130,8 @@ Like Query 7, Query 10 provides us with the menu items that bring in an above av
 
 ## Database Information
 
+MySQL server: al_Group_21479_G7
+
 ## Assumptions
+
+LoyaltyID is stored redundantly in order to keep track of loyalty at the time of a purchase, since customer loyalty status can change over time.
